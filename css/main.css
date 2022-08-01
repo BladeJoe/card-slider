@@ -3,13 +3,21 @@ body {
   display: flex;
   justify-content: center;
   font-family: "Roboto", sans-serif;
-  background: transparent;
+}
+
+.container {
+  max-width: 800px;
+  max-height: 500px;
+  display: flex;
+  justify-content: center;
 }
 
 .swiper {
-  margin-top: 100px;
-  width: 400px;
-  height: 420px;
+  padding: 0 200px;
+  overflow: hidden !important;
+  padding-top: 200px;
+  height: 100%;
+  width: 90vw;
 }
 
 .swiper-slide {

@@ -2,25 +2,29 @@
 
 
 body {
+    
     display: flex;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
-    background: transparent;
 }
 
-.swiper {
-    margin-top: 100px;
-    width: 400px;
-    height: 420px;
+.container { 
+    max-width: 800px;
+    max-height: 500px; 
+    display: flex;
+    justify-content: center;
+}
+
+.swiper { 
+    padding: 0 200px; 
+    overflow: hidden !important;
+    padding-top: 200px; 
+    height: 100%;
+    width: 90vw;
 }
 
 .swiper-slide {
     background: #fff;
-
-
-
-
-
     border-radius: 18px;
     font-size: 22px;
     font-weight: bold;
