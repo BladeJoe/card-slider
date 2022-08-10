@@ -55,8 +55,8 @@ body {
 }
 .swiper-slide .title {
   text-align: center;
-  font-size: 14px;
-  color: #DA80AE;
+  font-size: 22px;
+  color: deepskyblue;
   font-weight: 300;
 }
 .swiper-slide .desc {
@@ -102,4 +102,27 @@ body {
 }
 .swiper-slide .img-10 {
   background-image: url("./../images/team-10.jpg");
+}
+.swiper-slide .img-11 {
+  background-image: url("./../images/team-11.jpg");
+}
+.swiper-slide .img-12 {
+  background-image: url("./../images/team-12.jpg");
+}
+.swiper-slide .img-13 {
+  background-image: url("./../images/team-13.jpg");
+}
+.swiper-slide .img-14 {
+  background-image: url("./../images/team-14.jpg");
+}
+.swiper-slide .img-15 {
+  background-image: url("./../images/team-15.jpg");
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  gap: 20%;
 }/*# sourceMappingURL=main.css.map */
