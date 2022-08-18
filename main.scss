@@ -8,17 +8,17 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container { 
+.container {
     max-width: 800px;
-    max-height: 500px; 
+    max-height: 500px;
     display: flex;
     justify-content: center;
 }
 
-.swiper { 
-    padding: 0 200px; 
+.swiper {
+    padding: 0 200px;
     overflow: hidden !important;
-    padding-top: 200px; 
+    padding-top: 200px;
     height: 100%;
     width: 90vw;
 }
@@ -65,7 +65,8 @@ body {
         font-size: 22px;
         color: deepskyblue;
         font-weight: 300;
-    } 
+    }
+
     .desc {
         color: #6E6E6E;
         text-align: center;
@@ -120,31 +121,32 @@ body {
 
     .img-10 {
         background-image: url('./../images/team-10.jpg')
-    } 
-    
+    }
+
     .img-11 {
         background-image: url('./../images/team-11.jpg')
-    } 
+    }
 
-    
+
     .img-12 {
         background-image: url('./../images/team-12.jpg')
-    } 
+    }
 
-    
+
     .img-13 {
         background-image: url('./../images/team-13.jpg')
-    } 
-    
+    }
+
     .img-14 {
         background-image: url('./../images/team-14.jpg')
-    } 
+    }
+
     .img-15 {
         background-image: url('./../images/team-15.jpg')
-    } 
+    }
 }
 
-.social{
+.social {
     display: flex;
     justify-content: center;
     align-items: center;
